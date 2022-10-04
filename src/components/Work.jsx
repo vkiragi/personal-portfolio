@@ -1,6 +1,9 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
+import CryptoCentral from "../assets/crypto-central.jpeg";
+import ManettiShrem from "../assets/manettishrem.jpg";
 import realEstate from "../assets/realestate.jpg";
+import Code from "../assets/code.jpg";
 
 const Work = () => {
   return (
@@ -17,21 +20,29 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${CryptoCentral})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100 duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Application
+                CryptoCentral
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://vkiragi.github.io/crypto-central/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://github.com/vkiragi/personal-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -40,13 +51,13 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${ManettiShrem})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100 duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Application
+                Manetti Shrem Website
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -54,54 +65,11 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* grid item */}
-          <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
-          >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
-          >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a
+                  href="https://github.com/vkiragi/Manetti-Shrem-Website"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -111,44 +79,20 @@ const Work = () => {
           </div>
           {/* grid item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
           >
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100 duration-300">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React Application
+                Social Networking App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-105 duration-500"
-          >
-            {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100 duration-300">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a
+                  href="https://github.com/vkiragi/social-networking-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

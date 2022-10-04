@@ -7,6 +7,7 @@ import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import Java from "../assets/java.png";
 import Python from "../assets/python.png";
+import NodeJS from "../assets/nodejs.png";
 
 const Skills = () => {
   return (
@@ -63,6 +64,10 @@ const Skills = () => {
           <div className="shadow-md rounded-2xl shadow-[#040c16] hover:scale-110 duration-500">
             <img className="pt-5 w-20 mx-auto" src={Python} alt="Python icon" />
             <p className="my-4">Python</p>
+          </div>
+          <div className="shadow-md rounded-2xl shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="pt-5 w-20 mx-auto" src={NodeJS} alt="NodeJS icon" />
+            <p className="my-4">NodeJS</p>
           </div>
         </div>
       </div>
