@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.370bdc7c.css",
-    "main.js": "/personal-portfolio/static/js/main.0078a751.js",
+    "main.js": "/personal-portfolio/static/js/main.ed7ef018.js",
+    "static/media/code.jpg": "/personal-portfolio/static/media/code.4af070386dbb7acb4e83.jpg",
     "static/media/realestate.jpg": "/personal-portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/manettishrem.jpg": "/personal-portfolio/static/media/manettishrem.325a34d46fc025ed60fd.jpg",
+    "static/media/crypto-central.jpeg": "/personal-portfolio/static/media/crypto-central.49185ae6641b663b619a.jpeg",
     "static/media/workImg.jpeg": "/personal-portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/personal-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/html.png": "/personal-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/personal-portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/personal-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/nodejs.png": "/personal-portfolio/static/media/nodejs.1a1fdaae517c70809eaf.png",
     "static/media/java.png": "/personal-portfolio/static/media/java.c3389756e903eeaf905f.png",
     "static/media/javascript.png": "/personal-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/personal-portfolio/index.html",
     "main.370bdc7c.css.map": "/personal-portfolio/static/css/main.370bdc7c.css.map",
-    "main.0078a751.js.map": "/personal-portfolio/static/js/main.0078a751.js.map"
+    "main.ed7ef018.js.map": "/personal-portfolio/static/js/main.ed7ef018.js.map"
   },
   "entrypoints": [
     "static/css/main.370bdc7c.css",
-    "static/js/main.0078a751.js"
+    "static/js/main.ed7ef018.js"
   ]
 }
