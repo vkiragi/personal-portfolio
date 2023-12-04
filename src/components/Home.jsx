@@ -19,11 +19,11 @@ const Home = () => {
           development.
         </p>
         <div>
-          <button className="text-white group border-2 rounded-md px-6 py-3 my-2 flex items-center hover:bg-emerald-500 hover:border-emerald-500 hover:duration-300">
+          <button className="text-white group border-2 rounded-md px-6 py-3 my-2 flex items-center transition-colors hover:bg-emerald-500 hover:border-emerald-500 duration-300">
             <Link to="work" spy={true} smooth={true} duration={500}>
               My Work
             </Link>
-            <span className="group-hover:rotate-90 duration-300">
+            <span className="transition-transform group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>

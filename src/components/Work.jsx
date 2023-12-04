@@ -1,8 +1,6 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
 import CryptoCentral from "../assets/crypto-central.jpeg";
 import ManettiShrem from "../assets/manettishrem.jpg";
-import realEstate from "../assets/realestate.jpg";
 import Code from "../assets/code.jpg";
 
 const Work = () => {
