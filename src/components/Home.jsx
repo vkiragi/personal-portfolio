@@ -15,8 +15,7 @@ const Home = () => {
           I'm a software developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w[700px]">
-          I'm a software developer with a passion for frontend and web
-          development.
+          I'm a software developer with a passion for fullstack and mobile application development.
         </p>
         <div>
           <button className="text-white group border-2 rounded-md px-6 py-3 my-2 flex items-center transition-colors hover:bg-emerald-500 hover:border-emerald-500 duration-300">
