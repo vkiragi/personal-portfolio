@@ -59,8 +59,8 @@ const Content = ({ text, link }) => {
 const ExperienceCard = (props) => {
   return (
     <motion.div
-    whileInView={{ y: [-20, 0], opacity: [0, 1] }}
-    transition={{ duration: 1 }}
+      whileInView={{ y: [-20, 0], opacity: [0, 1] }}
+      transition={{ duration: 1 }}
     >
       <div className="flex flex-row items-center mb-6">
         <img

@@ -1,4 +1,5 @@
 import parthmittal from "./parth.svg";
+import varunkiragi from "./varun_kiragi_logo.png";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
@@ -80,6 +81,7 @@ export {
   zulip,
   cdc,
   parthmittal,
+  varunkiragi,
   profilePic,
   chargeswap,
   placeicon,
@@ -97,5 +99,5 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
 };

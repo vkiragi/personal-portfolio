@@ -26,8 +26,10 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
 } from "../assets";
+
+import myaicheflogo from "/Users/varunkiragi/new-personal-portfolio/src/assets/myaicheflogo.jpg";
 
 import {
   AiFillGithub,
@@ -45,10 +47,7 @@ import {
   SiBootstrap,
   SiReact,
   SiTailwindcss,
-  SiGraphql,
   SiPython,
-  SiCplusplus,
-  SiC,
   SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
@@ -72,25 +71,23 @@ import {
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiMicrosoftazure,
+  SiTypescript,
+  SiPhp,
+  SiNodedotjs,
+  SiPandas,
 } from "react-icons/si";
 
-import {
-  FaHardHat,
-  FaRust
-} from "react-icons/fa";
+import { FaHardHat, FaRust } from "react-icons/fa";
 
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
+import { IoIosNotificationsOutline } from "react-icons/io";
 
-import {
-  FaGolang
-} from "react-icons/fa6";
+import { FaGolang } from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
+export const resumeLink =
+  "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/mittal-parth";
@@ -130,19 +127,10 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
-  },
-  {
-    id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    title: "University of California, Davis",
+    degree: "Bachelor of Science, Computer Science",
+    duration: "Graduated June 2023",
+    content1: "Major: Computer Science",
   },
 ];
 
@@ -155,7 +143,8 @@ export const achievements = [
     content1: "Top 12 winners among 20k+ registrations",
     content2: "One of Polygon's Best Public Goods",
     content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+    article:
+      "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
     project: "https://devfolio.co/projects/chargeswap-3527",
     youtube: "https://youtu.be/9rieTya8Yds?t=3908",
   },
@@ -164,7 +153,8 @@ export const achievements = [
     icon: polkadot,
     event: "Polkadot Hackathon: Europe Edition",
     position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+    content1:
+      "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
     content2: "",
     content3: "",
     github: "https://github.com/pranav2305/GreenTrust",
@@ -184,7 +174,8 @@ export const achievements = [
     icon: dennisivy,
     event: "September Hackathon by Dennis Ivy",
     position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
+    content1:
+      "Rated the best portfolio website among 450+ participants across the globe.",
     content2: "",
     content3: "",
     youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
@@ -196,7 +187,8 @@ export const achievements = [
     event: "Manipal Hackathon'22",
     position: "Consolation Prize",
     content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
+    content2:
+      "Developed a cross-platform mobile application to address the problem of social cohesion.",
     content3: "",
     article: "https://shorturl.at/exEIQ",
   },
@@ -205,7 +197,8 @@ export const achievements = [
     icon: icon,
     event: "ICON Hyperbuild Hackathon",
     position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
+    content1:
+      "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
     content2: "",
     content3: "",
     project: "https://devpost.com/software/green-trust-xj2w6g",
@@ -215,13 +208,13 @@ export const achievements = [
     icon: ethforall,
     event: "ETHForAll 2023",
     position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
+    content1:
+      "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
     content2: "",
     content3: "",
     project: "https://devfolio.co/projects/green-trust-ed14",
   },
 ];
-
 
 export const skills = [
   {
@@ -229,8 +222,8 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: DiJava,
+        name: "Java",
       },
       {
         id: "pl-2",
@@ -239,49 +232,34 @@ export const skills = [
       },
       {
         id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
         icon: AiFillHtml5,
         name: "HTML",
       },
       {
-        id: "pl-9",
+        id: "pl-4",
         icon: DiCss3,
         name: "CSS",
       },
       {
-        id: "pl-10",
+        id: "pl-5",
         icon: SiJavascript,
         name: "JavaScript",
       },
       {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
+        id: "pl-6",
+        icon: SiTypescript,
+        name: "TypeScript",
+      },
+      {
+        id: "pl-7",
+        icon: SiPhp,
+        name: "PHP",
+      },
+      {
+        id: "pl-8",
+        icon: SiMysql,
+        name: "MySQL",
+      },
     ],
   },
   {
@@ -289,93 +267,33 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiNodedotjs,
+        name: "Node.js",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "f-3",
         icon: SiReact,
         name: "ReactJS",
       },
       {
-        id: "f-4",
+        id: "f-3",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
-        id: "f-5",
+        id: "f-4",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
       },
       {
+        id: "f-5",
+        icon: SiFlask,
+        name: "Flask",
+      },
+      {
         id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
-      },
-    ],
-  },
-  {
-    title: "Tools",
-    items: [
-      {
-        id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
-      },
-      {
-        id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
-      },
-      {
-        id: "t-3",
-        icon: SiPostman,
-        name: "Postman",
-      },
-      {
-        id: "t-4",
-        icon: SiVisualstudiocode,
-        name: "VS Code",
-      },
-      {
-        id: "t-5",
-        icon: SiGit,
-        name: "Git",
-      },
-      {
-        id: "t-6",
-        icon: AiFillGithub,
-        name: "GitHub",
-      },
-      {
-        id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
-      },
-      {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
-      },
-      {
-        id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiPandas,
+        name: "pandas",
       },
     ],
   },
@@ -383,108 +301,22 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "MyAIChef",
+    logo: myaicheflogo,
+    link: "https://apps.apple.com/cz/app/myaichef/id6466341841",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Software Engineer",
+        duration: "Sep 2023 - July 2024",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
-    positions: [
-      {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Full Stack Development.",
             link: "",
           },
         ],
       },
     ],
-  }
+  },
 ];
 
 export const openSourceContributions = [
@@ -700,27 +532,27 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React",
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "TailwindCSS"
+        name: "TailwindCSS",
       },
       {
         id: "icon-3",
         icon: SiOpenai,
-        name: "OpenAI"
+        name: "OpenAI",
       },
       {
         id: "icon-4",
         icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        name: "Google Cloud Platform",
       },
       {
         id: "icon-5",
         icon: SiFlask,
-        name: "Flask"
+        name: "Flask",
       },
     ],
   },
@@ -736,32 +568,32 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React",
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "TailwindCSS"
+        name: "TailwindCSS",
       },
       {
         id: "icon-3",
         icon: SiNextdotjs,
-        name: "Next.js"
+        name: "Next.js",
       },
       {
         id: "icon-4",
         icon: SiIpfs,
-        name: "IPFS"
+        name: "IPFS",
       },
       {
         id: "icon-5",
         icon: SiSolidity,
-        name: "Solidity"
+        name: "Solidity",
       },
       {
         id: "icon-6",
         icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        name: "Push Protocol",
       },
     ],
   },
@@ -777,37 +609,37 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React",
       },
       {
         id: "icon-3",
         icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        name: "Web3.js",
       },
       {
         id: "icon-4",
         icon: SiSolidity,
-        name: "Solidity"
+        name: "Solidity",
       },
       {
         id: "icon-5",
         icon: FaHardHat,
-        name: "HardHat"
+        name: "HardHat",
       },
       {
         id: "icon-6",
         icon: SiIpfs,
-        name: "IPFS"
+        name: "IPFS",
       },
       {
         id: "icon-7",
         icon: SiArduino,
-        name: "Arduino"
+        name: "Arduino",
       },
       {
         id: "icon-8",
         icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        name: "Push Protocol",
       },
     ],
   },
@@ -823,27 +655,27 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
+        name: "Dot Net Core MVC 6",
       },
       {
         id: "icon-2",
         icon: SiBootstrap,
-        name: "Bootstrap"
+        name: "Bootstrap",
       },
       {
         id: "icon-3",
         icon: DiMsqlServer,
-        name: "MS Sql Server"
+        name: "MS Sql Server",
       },
       {
         id: "icon-4",
         icon: SiJquery,
-        name: "jQuery"
+        name: "jQuery",
       },
       {
         id: "icon-5",
         icon: SiTwilio,
-        name: "Twillio"
+        name: "Twillio",
       },
     ],
   },
@@ -859,17 +691,17 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        name: "Ruby on Rails",
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "TailwindCSS"
+        name: "TailwindCSS",
       },
       {
         id: "icon-3",
         icon: SiJquery,
-        name: "jQuery"
+        name: "jQuery",
       },
     ],
   },
@@ -879,23 +711,22 @@ export const projects = [
     github: "",
     link: "http://cdc.nitk.ac.in/",
     image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
+    content: "The official website of CDC, NITK with a custom built CMS.",
     stack: [
       {
         id: "icon-1",
         icon: SiRubyonrails,
-        name: "Ruby on Rails"
+        name: "Ruby on Rails",
       },
       {
         id: "icon-2",
         icon: SiBootstrap,
-        name: "Bootstrap"
+        name: "Bootstrap",
       },
       {
         id: "icon-3",
         icon: SiJavascript,
-        name: "JavaScript"
+        name: "JavaScript",
       },
     ],
   },
@@ -911,32 +742,32 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiDjango,
-        name: "Django Rest Framework"
+        name: "Django Rest Framework",
       },
       {
         id: "icon-2",
         icon: SiFlutter,
-        name: "Flutter"
+        name: "Flutter",
       },
       {
         id: "icon-3",
         icon: SiReplit,
-        name: "Replit"
+        name: "Replit",
       },
       {
         id: "icon-4",
         icon: SiFlask,
-        name: "Flask"
+        name: "Flask",
       },
       {
         id: "icon-5",
         icon: SiFigma,
-        name: "Figma"
+        name: "Figma",
       },
       {
         id: "icon-6",
         icon: SiGooglemaps,
-        name: "Google Maps API"
+        name: "Google Maps API",
       },
     ],
   },
@@ -952,32 +783,32 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiDjango,
-        name: "Django"
+        name: "Django",
       },
       {
         id: "icon-2",
         icon: AiFillHtml5,
-        name: "HTML"
+        name: "HTML",
       },
       {
         id: "icon-3",
         icon: DiCss3,
-        name: "CSS"
+        name: "CSS",
       },
       {
         id: "icon-4",
         icon: SiJavascript,
-        name: "JavaScript"
+        name: "JavaScript",
       },
       {
         id: "icon-5",
         icon: SiBootstrap,
-        name: "Bootstrap"
+        name: "Bootstrap",
       },
       {
         id: "icon-6",
         icon: SiChartdotjs,
-        name: "Chart.js"
+        name: "Chart.js",
       },
     ],
   },
@@ -993,18 +824,18 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React",
       },
       {
         id: "icon-2",
         icon: AiFillHtml5,
-        name: "HTML"
+        name: "HTML",
       },
       {
         id: "icon-3",
         icon: DiCss3,
-        name: "CSS"
-      }
+        name: "CSS",
+      },
     ],
   },
   {
@@ -1018,17 +849,17 @@ export const projects = [
       {
         id: "icon-1",
         icon: SiReact,
-        name: "React"
+        name: "React",
       },
       {
         id: "icon-2",
         icon: SiTailwindcss,
-        name: "Tailwind CSS"
+        name: "Tailwind CSS",
       },
       {
         id: "icon-3",
         icon: AiFillHtml5,
-        name: "HTML"
+        name: "HTML",
       },
     ],
   },
@@ -1044,15 +875,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -1065,15 +896,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -1086,15 +917,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -1201,32 +1032,23 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/vkiragi",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/vkiragi",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
-  },
-  {
-    id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
-  },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "mailto:varunkiragi@icloud.com",
   },
 ];
 
 export const aboutMe = {
-    name: "Parth Mittal",
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
-}
+  name: "Varun Kiragi",
+  tagLine: "UC Davis '24",
+  intro:
+    "I'm a Full Stack Developer with a passion for iOS and Web Development. Let's Connect!",
+};

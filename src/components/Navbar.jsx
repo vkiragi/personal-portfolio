@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, parthmittal, varunkiragi, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -10,9 +10,9 @@ const Navbar = () => {
       {/* Logo */}
       <a href="#home">
         <img
-          src={parthmittal}
-          alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
+          src={varunkiragi}
+          alt="Varun Kiragi"
+          className="w-[80px] h-[80px] pl-0 pt-5"
         />
       </a>
 
@@ -24,9 +24,9 @@ const Navbar = () => {
             className={`font-poppins
             font-normal
             cursor-pointer
-            text-[16px]
+            text-[18px]
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-            text-white hover:text-teal-200`}
+            text-white hover:text-teal-400 transition ease-linear delay-150`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>

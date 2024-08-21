@@ -14,15 +14,7 @@ const defaultOptions = {
   },
 };
 
-const FeatureCard = ({
-  icon,
-  title,
-  degree,
-  duration,
-  content1,
-  content2,
-  index,
-}) => (
+const FeatureCard = ({ icon, title, degree, duration, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px]
 	${index === educationList.length - 1 ? "mb-0" : "mb-6"} feature-card`}
@@ -42,14 +34,6 @@ const FeatureCard = ({
       <p className="font-poppins font-normal text-dimWhite text-[14px] leading-[30px] mb-1">
         {duration}
       </p>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">   
-      ● {content1}
-      </p>
-      {content2 && (
-        <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[30px] mb-1">     
-      ● {content2}
-        </p>
-      )}
     </div>
   </div>
 );
