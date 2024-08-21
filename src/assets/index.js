@@ -48,6 +48,7 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import myaicheflogo from "./myaicheflogo.jpg";
 
 export {
   quotes,
@@ -88,6 +89,7 @@ export {
   recruitment,
   huntly,
   oracle,
+  myaicheflogo,
   comicify_ai,
   greentrust,
   averlon,
