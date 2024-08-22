@@ -75,6 +75,8 @@ import {
   SiPhp,
   SiNodedotjs,
   SiPandas,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -521,48 +523,45 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
+    title: "Bhavya Solutions Website",
+    github: "https://github.com/vkiragi/bhavya-solutions",
+    link: "https://bhavyasolutions.com/",
     image: comicify_ai,
-    content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+    content: "Client's personal indexing business website.",
     stack: [
       {
         id: "icon-1",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-2",
+        icon: SiHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-3",
+        icon: SiCss3,
+        name: "CSS",
+      },
+      {
+        id: "icon-4",
         icon: SiReact,
         name: "React",
       },
       {
-        id: "icon-2",
+        id: "icon-6",
         icon: SiTailwindcss,
         name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
+    title: "Social Networking App",
+    github: "https://github.com/vkiragi/social-networking-app",
     image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+    content: "Facebook-esque social networking app.",
     stack: [
       {
         id: "icon-1",

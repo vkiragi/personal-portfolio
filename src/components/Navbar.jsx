@@ -26,7 +26,7 @@ const Navbar = () => {
             cursor-pointer
             text-[18px]
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
-            text-white hover:text-teal-400 transition ease-linear delay-150`}
+            text-white hover:text-[#7aa9ad] transition ease-linear delay-150`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
