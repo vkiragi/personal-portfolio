@@ -6,7 +6,7 @@ import { layout } from "../style";
 import { resumeLink, repoLink } from "../constants";
 
 const Footer = () => (
-  <footer id="contactMe" className="bg-gray-900 sm:px-16 px-6">
+  <footer id="contactMe" className="bg-[#282F44] sm:px-16 px-6">
     <div
       className={`${layout.sectionReverse} xl:max-w-[1280px] w-full mx-auto gap-y-4 `}
     >
