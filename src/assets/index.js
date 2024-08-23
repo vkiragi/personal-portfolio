@@ -52,6 +52,7 @@ import ucdavislogo from "./ucdavislogo.png";
 import resume from "./varun_kiragi_resume.pdf";
 import indexing_image from "./indexing_image.png";
 import social_networking_image from "./social_networking.png";
+import teamcalailogo from "./teamcalailogo.png";
 
 export {
   quotes,
@@ -108,4 +109,5 @@ export {
   resume,
   indexing_image,
   social_networking_image,
+  teamcalailogo,
 };

@@ -32,6 +32,7 @@ import {
   resume,
   indexing_image,
   social_networking_image,
+  teamcalailogo,
 } from "../assets";
 
 import {
@@ -304,16 +305,41 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "MyAIChef",
-    logo: myaicheflogo,
-    link: "https://apps.apple.com/cz/app/myaichef/id6466341841",
+    organisation: "Teamcal AI",
+    logo: teamcalailogo,
+    link: "https://averlon.ai/",
     positions: [
       {
-        title: "Software Engineer",
-        duration: "Sep 2023 - July 2024",
+        title: "Software Engineer Intern",
+        duration: "May 2024 - Aug 2024",
         content: [
           {
-            text: "Full Stack Development.",
+            text: "iOS Development, worked on the Adi Bot and voice assistant features. Played a key role in the design of the voice assistant bot.",
+            link: "",
+          },
+          {
+            text: "React Native Development.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "MyAIChef",
+    logo: myaicheflogo,
+    link: "https://averlon.ai/",
+    positions: [
+      {
+        title: "Software Developer Intern",
+        duration: "June 2023 - May 2024",
+        content: [
+          {
+            text: "Frontend Development, worked on interactive quizzes, web scraping and database management.",
+            link: "",
+          },
+          {
+            text: "Backend Development.",
             link: "",
           },
         ],

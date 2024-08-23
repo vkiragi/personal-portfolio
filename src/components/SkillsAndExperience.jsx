@@ -105,8 +105,8 @@ const SkillsAndExperience = () => {
       </h1>
       <div
         className={layout.section}
-        // whileInView={{ y: [-20, 0], opacity: [0, 1] }}
-        // transition={{ duration: 0.5 }}
+        whileInView={{ y: [-20, 0], opacity: [0, 1] }}
+        transition={{ duration: 0.5 }}
       >
         {/* Skills */}
         <motion.div className={`ml-2 mb-6 ${layout.sectionInfo}`}>
