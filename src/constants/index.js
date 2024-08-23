@@ -28,6 +28,10 @@ import {
   icon,
   ethforall,
   myaicheflogo,
+  ucdavislogo,
+  resume,
+  indexing_image,
+  social_networking_image,
 } from "../assets";
 
 import {
@@ -87,11 +91,9 @@ import { FaGolang } from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink =
-  "https://drive.google.com/file/d/1dp9zYqgvYBNga49JDnm5lizsT1rWQRCa/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = resume;
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/vkiragi";
 
 export const navLinks = [
   {
@@ -127,7 +129,7 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
+    icon: ucdavislogo,
     title: "University of California, Davis",
     degree: "Bachelor of Science, Computer Science",
     duration: "Graduated June 2023",
@@ -526,8 +528,9 @@ export const projects = [
     title: "Bhavya Solutions Website",
     github: "https://github.com/vkiragi/bhavya-solutions",
     link: "https://bhavyasolutions.com/",
-    image: comicify_ai,
-    content: "Client's personal indexing business website.",
+    image: indexing_image,
+    content:
+      "Bhavya Solutions is a dynamic, responsive website crafted for a client's business using React, JavaScript, HTML, and Tailwind CSS. The project features smooth animations and a robust routing system, ensuring an optimal user experience across all devices. This SEO-optimized site significantly enhanced the client's online presence, driving increased traffic and customer engagement.",
     stack: [
       {
         id: "icon-1",
@@ -560,8 +563,9 @@ export const projects = [
     id: "project-2",
     title: "Social Networking App",
     github: "https://github.com/vkiragi/social-networking-app",
-    image: greentrust,
-    content: "Facebook-esque social networking app.",
+    image: social_networking_image,
+    content:
+      "This is a feature-rich social networking application developed in Java, showcasing advanced data structure implementation and algorithm design. The project demonstrates proficiency in backend development and efficient data management, featuring user profiles, posts, comments, friend requests, and an intelligent friend recommendation system powered by custom algorithms utilizing graphs, trees, and hash tables.",
     stack: [
       {
         id: "icon-1",
@@ -592,88 +596,6 @@ export const projects = [
         id: "icon-6",
         icon: IoIosNotificationsOutline,
         name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server",
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio",
       },
     ],
   },
@@ -862,7 +784,7 @@ export const socialMedia = [
 
 export const aboutMe = {
   name: "Varun Kiragi",
-  tagLine: "UC Davis '24",
+  tagLine: "UC Davis '23",
   intro:
     "I'm a Full Stack Developer with a passion for iOS and Web Development. Let's Connect!",
 };

@@ -1,4 +1,3 @@
-import parthmittal from "./parth.svg";
 import varunkiragi from "./varun_kiragi_logo.png";
 import profilePic from "./profile-pic.jpg";
 import quotes from "./quotes.svg";
@@ -49,6 +48,10 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import myaicheflogo from "./myaicheflogo.jpg";
+import ucdavislogo from "./ucdavislogo.png";
+import resume from "./varun_kiragi_resume.pdf";
+import indexing_image from "./indexing_image.png";
+import social_networking_image from "./social_networking.png";
 
 export {
   quotes,
@@ -81,7 +84,6 @@ export {
   publiclab,
   zulip,
   cdc,
-  parthmittal,
   varunkiragi,
   profilePic,
   chargeswap,
@@ -102,4 +104,8 @@ export {
   manipal,
   icon,
   ethforall,
+  ucdavislogo,
+  resume,
+  indexing_image,
+  social_networking_image,
 };

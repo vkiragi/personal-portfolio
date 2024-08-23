@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, degree, duration, index }) => (
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
     >
-      <img src={icon} alt="icon" className="w-[80%] h-[80%] object-contain" />
+      <img src={icon} alt="icon" className="object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-4">
       <h4 className="font-poppins font-semibold text-white text-[20px] leading-[30px] mb-1 text-gradient">
