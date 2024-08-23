@@ -54,6 +54,22 @@
   text-fill-color: transparent;
 }
 
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #9ecbcf -43.27%,
+    #8dbfc3 -21.24%,
+    #7cb3b7 12.19%,
+    #6ba7ab 29.82%,
+    #5a9b9f 51.94%,
+    #498f93 90.29%
+  );
+}
+
+.bg-blue-gradient:hover {
+  background: #8ab7bb; /* A slightly lighter shade of #7aa9ad */
+}
+
 .bg-button {
   background: white;
   transition: 0.3s;
