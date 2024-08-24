@@ -314,11 +314,15 @@ export const experiences = [
         duration: "May 2024 - Aug 2024",
         content: [
           {
-            text: "iOS Development, worked on the Adi Bot and voice assistant features. Played a key role in the design of the voice assistant bot.",
+            text: "Engineered an innovative voice assistant bot using React Native, enabling voice-controlled schedule management and significantly improving app accessibility.",
             link: "",
           },
           {
-            text: "React Native Development.",
+            text: "Led critical bug-fixing initiatives and implemented a custom error logging system, dramatically reducing app crashes and enhancing overall stability.",
+            link: "",
+          },
+          {
+            text: " Improved code quality through regular reviews, refactoring, and comprehensive testing strategies, minimizing regression bugs across multiple releases.",
             link: "",
           },
         ],
@@ -331,15 +335,19 @@ export const experiences = [
     link: "https://averlon.ai/",
     positions: [
       {
-        title: "Software Developer Intern",
+        title: "Software Engineer",
         duration: "June 2023 - May 2024",
         content: [
           {
-            text: "Frontend Development, worked on interactive quizzes, web scraping and database management.",
+            text: "Played a key role in the development of an AI-based iOS application that generates customized meal plans, tailored to user preferences and goals, as part of a small collaborative team.",
             link: "",
           },
           {
-            text: "Backend Development.",
+            text: "Optimized web scraping algorithms using Python, pandas, and Beautiful Soup, achieving a 20% reduction in execution time.",
+            link: "",
+          },
+          {
+            text: "Implemented key features including customization algorithms and quizzes using TypeScript and React Native, enhancing user experience and satisfaction.",
             link: "",
           },
         ],
