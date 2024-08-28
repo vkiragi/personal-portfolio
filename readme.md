@@ -1,6 +1,6 @@
 <h1 align="center"> Personal Portfolio </h1>
 
-## Tech Stack 🧰
+## Tech Stack
 
 <li>Frameworks</li>
 
