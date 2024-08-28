@@ -33,6 +33,7 @@ import {
   indexing_image,
   social_networking_image,
   teamcalailogo,
+  car_loan_image,
 } from "../assets";
 
 import {
@@ -603,33 +604,64 @@ export const projects = [
     stack: [
       {
         id: "icon-1",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-2",
+        icon: SiHtml5,
+        name: "HTML",
+      },
+      {
+        id: "icon-3",
+        icon: SiCss3,
+        name: "CSS",
+      },
+      {
+        id: "icon-4",
         icon: SiReact,
         name: "React",
       },
       {
-        id: "icon-2",
+        id: "icon-6",
         icon: SiTailwindcss,
         name: "TailwindCSS",
       },
+    ],
+  },
+  {
+    id: "project-3",
+    title: "Car Affordability Calculator",
+    github: "https://github.com/vkiragi/car-affordability-calculator",
+    link: "https://vkiragi.github.io/car-affordability-calculator/",
+    image: car_loan_image,
+    content:
+      "This is a car affordability calculator that tells you how much your salary has to be in order to comfortably afford the car of your choice, following the 20 4 10 rule.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiJavascript,
+        name: "JavaScript",
+      },
+      {
+        id: "icon-2",
+        icon: SiHtml5,
+        name: "HTML",
+      },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
+        icon: SiCss3,
+        name: "CSS",
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiReact,
+        name: "React",
       },
       {
         id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
       },
     ],
   },

@@ -53,6 +53,7 @@ import resume from "./varun_kiragi_resume.pdf";
 import indexing_image from "./indexing_image.png";
 import social_networking_image from "./social_networking.png";
 import teamcalailogo from "./teamcalailogo.png";
+import car_loan_image from "./car-loan.png";
 
 export {
   quotes,
@@ -110,4 +111,5 @@ export {
   indexing_image,
   social_networking_image,
   teamcalailogo,
+  car_loan_image,
 };
